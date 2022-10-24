@@ -1,0 +1,31 @@
+.info{
+    padding-top: 2rem;
+}
+
+.contact-setup{   
+    margin: 10px; 
+    padding: 30px;
+    justify-content: space-between;
+    text-align: center;   
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.contact-form-setup{   
+    margin: 10px; 
+    padding: 30px;
+    justify-content: space-between;
+    text-align: center;   
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.contact-form-setup:hover{   
+    margin: 10px; 
+    padding: 30px;
+    justify-content: space-between;
+    text-align: center;   
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+
+
+

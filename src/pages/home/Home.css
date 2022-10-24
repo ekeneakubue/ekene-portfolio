@@ -1,0 +1,52 @@
+.setup{
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.setin{
+    border-radius: 30px;
+    text-align: center;
+    margin: 2px;
+    margin: 10px;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.intro{
+    padding-top: 45px;
+}
+
+.myImage{
+    width: 95%;
+    width: 75;
+    height: 95%;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.img-setin{
+    width: 100%;
+    height: 95%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.img-setup{
+    width: 95%;
+    height: 95%;
+    text-align: center;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.glow{
+    width: 10rem;
+    height: 10rem;
+    float: inherit;
+    z-index: 12;
+}

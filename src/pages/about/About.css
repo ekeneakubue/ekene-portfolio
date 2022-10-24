@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+}
+
+.about-setup{
+    width: 80%;
+    padding-top: 30px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.about-setin{
+    border-radius: 30px;
+    text-align: center;
+    margin: 2px;
+    margin: 10px;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.aboutImageIn{
+    width: 70%;
+    height: 30%;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.aboutImageUp{
+    width: 70%;
+    height: 30%;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.info{
+    padding-top: 2rem;
+}
+
+.aboutimg{
+    width: 100%;
+    padding: 10px;
+}
+
+.cover{
+    width: 95%;
+    margin: 15px;
+}
+
+.setup{
+    border-radius: 30px;
+    text-align: center;
+    background: #dde1e7; 
+    color: black;
+    margin: 10px;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+    }
+
+.setup:hover{
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    color: aliceblue;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+}
