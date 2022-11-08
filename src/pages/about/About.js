@@ -14,20 +14,21 @@ export default function About() {
                     </div>
                 </Col>                
             </Row>
-            <div className='row justify-content-center'>
-                <div className='col aboutImageIn'>
-                    <div className='aboutImageUp cover'>
-                        <img src='images/aboutme.jpg' alt='aboutme' className='aboutimg'/>
+            
+            <Row className='row justify-content-center'>
+                <Col md={6} className="text-center">
+                    <div className='cover'>
+                        <img src='images/aboutme.jpg' alt='aboutme' className='aboutimg setup'/>
                     </div>
-                </div>
+                </Col>
 
-                <div className='col'>
+                <Col md={6} className="text-center intro">
                     <p>Hi! My name is Ekene Akubue. I am a Fulstack Developer. I am passionate about creating responsive designs</p>
                     <p>I specialize in efficient MERN stack apps that just works in all platforms and browsers. I care deeply about building interfaces that are usable and pleasant for the most number of people possible. I am an accomplished coder and programmer, and I enjoy using my skills to contribute to the exciting administrative technology and for educating other team members. being a developer with positive 
                         attitude and tireless energy I encourage others to work hard and succeed. In my free time, I love watching football and listen to music.</p>
                     <Button className='setup'><i class="bi bi-download"></i> Download My CV</Button>
-                </div>
-            </div><br/><br/>
+                </Col>
+            </Row><br/><br/>
         </Container>    
     </div>
   )

@@ -30,7 +30,7 @@ export default function Projects() {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                             </Card.Text>
-                            <Button className="setup" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button>
+                            <a href="https://tinder-clone-khaki-five.vercel.app/" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
                         </Card.Body>
                         </Card><br/>
                     </Row>
@@ -47,7 +47,7 @@ export default function Projects() {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                             </Card.Text>
-                            <Button className="setup" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button>
+                            <a href="https://tinder-clone-khaki-five.vercel.app/" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
                         </Card.Body>
                         </Card><br/>
                     </Row>
@@ -64,7 +64,7 @@ export default function Projects() {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                             </Card.Text>
-                            <a href="https://tinder-clone-khaki-five.vercel.app/" target="_blank"><Button className="setup" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
+                            <a href="https://tinder-clone-khaki-five.vercel.app/" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
                         </Card.Body>
                         </Card><br/>
                     </Row>
@@ -83,7 +83,7 @@ export default function Projects() {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                             </Card.Text>
-                            <a href="https://tinder-clone-khaki-five.vercel.app/" target="_blank"><Button className="setup" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
+                            <a href="https://tinder-clone-khaki-five.vercel.app/" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
                         </Card.Body>
                         </Card><br/>
                     </Row>
@@ -100,7 +100,7 @@ export default function Projects() {
                             Some quick example text to build on the card title and make up the
                             bulk of the card's content.
                             </Card.Text>
-                            <a href="https://tinder-clone-khaki-five.vercel.app/" target="_blank"><Button className="setup" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
+                            <a href="https://tinder-clone-khaki-five.vercel.app/" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
                         </Card.Body>
                         </Card><br/>
                     </Row>
@@ -127,7 +127,7 @@ export default function Projects() {
                                     <div className='col'></div> 
                                 </div>                                                          
                             </Card.Text>
-                            <a href="https://tinder-clone-khaki-five.vercel.app/" target="_blank"><Button className="setup" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
+                            <a href="https://tinder-clone-khaki-five.vercel.app/" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
                         </Card.Body>
                         </Card><br/>
                     </Row>
