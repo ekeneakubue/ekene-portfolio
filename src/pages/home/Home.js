@@ -26,9 +26,12 @@ export default function Home() {
               </h1>
 
               <p className="heading-description blockquote">
-                A Front-End Developer with over 3 years experience in Web Development. 
+                A Fullstack Developer with over 2+ years experience in Web Development. 
+                I'm well knowledged in ReactJS & NodeJS. 
+              </p>
+              <p className="heading-description blockquote">  
                 I am passionate about Creating Clean, Beautiful, Responsive 
-                and User Friendly Interfaces. <br/>             
+                and User Friendly Interfaces. I'm Looking to collaborate on any JavaScript project. <br/>             
               </p>
 
               <div className="heading-type">

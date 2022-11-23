@@ -26,6 +26,44 @@
     box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
 }
 
+.form_setup{
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+    }
+
+.form_setup:hover{
+    color: inherit;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.form-int{
+    background-color: rgba(232, 229, 229, 0.45);
+    border: 0;
+    width: 95%;
+    padding: 5px;
+}
+
+.form-int-button{
+    background-color: rgba(232, 229, 229, 0.45);
+    color: black;
+    border: 0;
+    width: 20%;
+    padding: 10px 10px;
+}
+
+.form-int-button:hover{
+    background-color: rgba(47, 83, 182, 0.45);
+    color: antiquewhite;
+    border: 0;
+    width: 20%;
+    padding: 10px 10px;
+}
 
 
 

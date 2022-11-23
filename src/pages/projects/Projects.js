@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 export default function Projects() {
+    
   return (
     <div>
         <Container className='justify-content-center'>
@@ -27,10 +28,9 @@ export default function Projects() {
                         <Card.Body>
                             <Card.Title>My Portfolio Website</Card.Title>
                             <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                                <b className='text-danger'>Frontend.</b> Designed with ReactJS, HTML, CSS, ReactBootstrap, and was deployed on vercel. This Site represent everything about me. 
                             </Card.Text>
-                            <a href="https://tinder-clone-khaki-five.vercel.app/" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
+                            <a href="https://ekene-portfolio.vercel.app/" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
                         </Card.Body>
                         </Card><br/>
                     </Row>
@@ -42,12 +42,11 @@ export default function Projects() {
                             <Card.Img variant="top" src="images/Projects/gigostore.png" />
                         </div>                        
                         <Card.Body>
-                            <Card.Title>Amazone Clone Website</Card.Title>
+                            <Card.Title>Amazone-Clone-App</Card.Title>
                             <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                            <b className='text-danger'>Fullstack.</b> Desined with HTML, CSS, MongoDB, ExpressJS, ReactJS, NodeJS. Deployed on vercel & Heroku. 
                             </Card.Text>
-                            <a href="https://tinder-clone-khaki-five.vercel.app/" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
+                            <a href="https://gigostore.vercel.app/" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
                         </Card.Body>
                         </Card><br/>
                     </Row>
@@ -59,10 +58,9 @@ export default function Projects() {
                             <Card.Img variant="top" src="images/Projects/tinder.png" />
                         </div>                        
                         <Card.Body>
-                            <Card.Title>TinderApp-Clone </Card.Title>
+                            <Card.Title>Tinder-App-Clone </Card.Title>
                             <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                            <b className='text-danger'>Fullstack.</b> Designed with HTML, CSS, ReactBootstrap, MongoDB, ExpressJS, ReactJS, NodeJS. Deployed on vercel & Heroku.
                             </Card.Text>
                             <a href="https://tinder-clone-khaki-five.vercel.app/" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
                         </Card.Body>
@@ -75,15 +73,14 @@ export default function Projects() {
                     <Row className="justify-content-center">
                         <Card style={{ width: '20rem' }} className='cad'>
                         <div className='setup'>
-                            <Card.Img variant="top" src="images/Projects/gigostore.png" />
+                            <Card.Img variant="top" src="images/Projects/bcard.png" />
                         </div>                        
                         <Card.Body>
-                            <Card.Title>ToDo App</Card.Title>
+                            <Card.Title>Digital Business Card</Card.Title>
                             <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                            <b className='text-danger'>Frontend.</b> Designed with ReactJS, HTML, CSS, Bootstrap, and was deployed on vercel. This Site represent everything about my business.
                             </Card.Text>
-                            <a href="https://tinder-clone-khaki-five.vercel.app/" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
+                            <a href="https://digital-business-card-psi.vercel.app/" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
                         </Card.Body>
                         </Card><br/>
                     </Row>
@@ -95,12 +92,11 @@ export default function Projects() {
                             <Card.Img variant="top" src="images/Projects/gigostore.png" />
                         </div>                        
                         <Card.Body>
-                            <Card.Title>ToDo App</Card.Title>
+                            <Card.Title>ToDo-App</Card.Title>
                             <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                                <b className='text-danger'>Fullstack.</b> Designed with ReactJS, HTML, CSS, Bootstrap, Firebase and was deployed on vercel. This Site includes and CRUD operations.
                             </Card.Text>
-                            <a href="https://tinder-clone-khaki-five.vercel.app/" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
+                            <a href="#" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
                         </Card.Body>
                         </Card><br/>
                     </Row>
@@ -112,22 +108,11 @@ export default function Projects() {
                             <Card.Img variant="top" src="images/Projects/gigostore.png" />
                         </div>                        
                         <Card.Body>
-                            <Card.Title>ToDo App</Card.Title>
+                            <Card.Title>Digital-Clock</Card.Title>
                             <Card.Text>
-                                <div>Used Tools</div>
-                                <div className='row'>
-                                    <div className='col'>
-                                        <ul>
-                                            <li>HTML/CSS</li>
-                                            <li>ReactJs</li>
-                                            <li>NodeJs</li>
-                                        </ul>
-                                    </div>
-                                    <div className='col'></div>
-                                    <div className='col'></div> 
-                                </div>                                                          
+                                <b className='text-danger'>Frontend.</b> Designed with ReactJS, HTML, CSS, Bootstrap, and was deployed on vercel. This Site shows a digital clock.                                                       
                             </Card.Text>
-                            <a href="https://tinder-clone-khaki-five.vercel.app/" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
+                            <a href="#" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
                         </Card.Body>
                         </Card><br/>
                     </Row>
