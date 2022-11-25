@@ -26,7 +26,7 @@ export default function Home() {
               </h1>
 
               <p className="heading-description blockquote">
-                A Fullstack Developer with over 2+ years experience in Web Development. 
+                A Fullstack Developer with over 2 years experience in Web Development. 
                 I'm well knowledged in ReactJS & NodeJS. 
               </p>
               <p className="heading-description blockquote">  

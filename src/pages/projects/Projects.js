@@ -26,7 +26,7 @@ export default function Projects() {
                             <Card.Img variant="top" src="images/Projects/ekene-portfolio.png" />
                         </div>                        
                         <Card.Body>
-                            <Card.Title>My Portfolio Website</Card.Title>
+                            <Card.Title>My-Portfolio-Website</Card.Title>
                             <Card.Text>
                                 <b className='text-danger'>Frontend.</b> Designed with ReactJS, HTML, CSS, ReactBootstrap, and was deployed on vercel. This Site represent everything about me. 
                             </Card.Text>
@@ -44,7 +44,7 @@ export default function Projects() {
                         <Card.Body>
                             <Card.Title>Gigo-Store-App</Card.Title>
                             <Card.Text>
-                            <b className='text-danger'>Fullstack.</b> Desined with HTML, CSS, MongoDB, ExpressJS, ReactJS, NodeJS. Deployed on vercel & Heroku. 
+                            <b className='text-danger'>Frontend.</b> Designed with HTML, CSS, ReactJS and it was deployed on vercel. <br/><br/>
                             </Card.Text>
                             <a href="https://gigostore.vercel.app/" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
                         </Card.Body>
@@ -76,7 +76,7 @@ export default function Projects() {
                             <Card.Img variant="top" src="images/Projects/bcard.png" />
                         </div>                        
                         <Card.Body>
-                            <Card.Title>Digital Business Card</Card.Title>
+                            <Card.Title>Digital-Business-Card</Card.Title>
                             <Card.Text>
                             <b className='text-danger'>Frontend.</b> Designed with ReactJS, HTML, CSS, Bootstrap, and was deployed on vercel. This Site represent everything about my business.
                             </Card.Text>
@@ -92,7 +92,7 @@ export default function Projects() {
                             <Card.Img variant="top" src="images/Projects/crud-img.png" />
                         </div>                        
                         <Card.Body>
-                            <Card.Title>CRUD Operations</Card.Title>
+                            <Card.Title>CRUD-Operations</Card.Title>
                             <Card.Text>
                                 <b className='text-danger'>Fullstack.</b> Designed with ReactJS, HTML, CSS, Bootstrap, Firebase and was deployed on vercel. This App shows CRUD operations.
                             </Card.Text>
@@ -108,9 +108,9 @@ export default function Projects() {
                             <Card.Img variant="top" src="images/Projects/calculator.jpg" />
                         </div>                        
                         <Card.Body>
-                            <Card.Title>Calculator App</Card.Title>
+                            <Card.Title>Calculator-App</Card.Title>
                             <Card.Text>
-                                <b className='text-danger'>Frontend.</b> Designed with ReactJS, HTML, CSS, Bootstrap, and was deployed on vercel. This Site shows a digital clock.                                                       
+                                <b className='text-danger'>Frontend.</b> Designed with ReactJS, HTML, CSS, Bootstrap, and was deployed on vercel. This Site shows a digital calculator.                                                       
                             </Card.Text>
                             <a href="#" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
                         </Card.Body>

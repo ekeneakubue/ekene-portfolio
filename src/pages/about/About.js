@@ -23,7 +23,7 @@ export default function About() {
                 </Col>
 
                 <Col md={6} className="text-justify intro">
-                    <p>Hi! My name is Ekene Akubue. I am a Fullstack Developer. I am passionate about creating responsive designs</p>
+                    <p>Hi! My name is Ekene Akubue. I am a Fullstack Developer. I am passionate about creating responsive designs.</p>
                     <p>I specialize in efficient MERN stack apps that works in all platforms and browsers. I care deeply about building interfaces that are useable and pleasant. I am an accomplished coder and programmer, and I enjoy using my skills to contribute to the exciting administrative technology and for educating other team members. Being a developer with positive 
                         attitude and tireless energy I encourage others to work hard and succeed. In my free time, I love watching football and listening to music.</p>
                     <div className='text-center'>
