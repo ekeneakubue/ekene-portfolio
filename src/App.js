@@ -1,5 +1,6 @@
 import './App.css'
-import Navbar from './components/navbar/Navbar'
+import Key from './components/navbar/Key'
+// import Navbar from './components/navbar/Navbar'
 import Home from './pages/home/Home'
 import About from './pages/about/About'
 import Projects from './pages/projects/Projects'
@@ -11,8 +12,10 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 function App() {
   return (
     <Router>
+
+        <Key/>
         
-        <Navbar />
+        {/* <Navbar /> */}
         
         <Switch>
           <Route exact path='/'>

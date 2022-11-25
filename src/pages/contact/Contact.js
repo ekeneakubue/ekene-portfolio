@@ -5,8 +5,8 @@ import { BsTelephoneFill, BsHouseFill, BsEnvelopeFill, BsWhatsapp, BsFacebook, B
 import emailjs from '@emailjs/browser';
 
 export default function Contact() {
-    const form = useRef();
-
+    //EmailJS Config
+    const form = useRef()
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -28,6 +28,8 @@ export default function Contact() {
         });
     };
 
+    
+    
   return (
     <div>
         <Container className='justify-content-center'>
@@ -64,23 +66,19 @@ export default function Contact() {
                 
                 <form className='form-group' id="contactForm" ref={form} onSubmit={sendEmail}>
                     <br/><br/>    
-                    <h5>Write me a Message</h5> 
+                    <h5>Write me a Message</h5>                     
+
                     <div className="row mt-4">                        
                         <div className="col-lg-12 form-item">
                             <div className="form-group">
-                                <input name="user_name" id="name" type="text" className="form-int form_setup" placeholder="Your Name*" required="" />
+                                <input name="user_name" id="name" type="text" className="form-int form_setup" placeholder="Your Name*"/>
                             </div>
                         </div>
                         <div className="col-lg-12 form-item">
                             <div className="form-group">
-                                <input name="user_email" id="email" type="email" className="form-int form_setup" placeholder="Your Email*" required="" />
+                                <input name="user_email" id="email" type="email" className="form-int form_setup" placeholder="Your Email*"/>
                             </div>
-                        </div>
-                        <div className="col-12 form-item">
-                            <div class="form-group">
-                                <input name="subject" id="subject" type="text" className="form-int form_setup" placeholder="Your Subject*" required="" />
-                            </div>
-                        </div>
+                        </div>                        
                         <div className="col-12 form-item">
                             <div class="form-group">
                                 <textarea name="message" id="comments" rows="4" className="form-int form_setup" placeholder="Your message..."/>
@@ -88,15 +86,16 @@ export default function Contact() {
                         </div>                      
 
                         <div className="col-12 form-item">
-                            <Button className='form-int-button form_setup' type="submit">            
+                            <Button className='form-int-button form_setup' type="submit" id="send" onClick="Alert()">            
                                 <h6><i className="bi bi-send-fill text-danger"></i> Send Message</h6>
-                            </Button>                                                        
-                        </div>
-                        {/* {alert} */}
+                            </Button>                                                    
+                        </div>  
+                                 
                     </div>
                 </form>
             </div>          
         </Container>
+        
     </div>
   )
 }

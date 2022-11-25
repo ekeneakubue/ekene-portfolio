@@ -18,3 +18,8 @@
     text-decoration: none;
 }
 
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: greenyellow;
+}

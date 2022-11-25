@@ -42,7 +42,7 @@ export default function Projects() {
                             <Card.Img variant="top" src="images/Projects/gigostore.png" />
                         </div>                        
                         <Card.Body>
-                            <Card.Title>Amazone-Clone-App</Card.Title>
+                            <Card.Title>Gigo-Store-App</Card.Title>
                             <Card.Text>
                             <b className='text-danger'>Fullstack.</b> Desined with HTML, CSS, MongoDB, ExpressJS, ReactJS, NodeJS. Deployed on vercel & Heroku. 
                             </Card.Text>
@@ -89,14 +89,14 @@ export default function Projects() {
                     <Row className="justify-content-center">
                         <Card style={{ width: '20rem' }} className='cad'>
                         <div className='setup'>
-                            <Card.Img variant="top" src="images/Projects/gigostore.png" />
+                            <Card.Img variant="top" src="images/Projects/crud-img.png" />
                         </div>                        
                         <Card.Body>
-                            <Card.Title>ToDo-App</Card.Title>
+                            <Card.Title>CRUD Operations</Card.Title>
                             <Card.Text>
-                                <b className='text-danger'>Fullstack.</b> Designed with ReactJS, HTML, CSS, Bootstrap, Firebase and was deployed on vercel. This Site includes and CRUD operations.
+                                <b className='text-danger'>Fullstack.</b> Designed with ReactJS, HTML, CSS, Bootstrap, Firebase and was deployed on vercel. This App shows CRUD operations.
                             </Card.Text>
-                            <a href="#" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
+                            <a href="https://react-firebase-crud-lake.vercel.app/" target="_blank"><Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right text-danger"></i> View Site</Button></a>
                         </Card.Body>
                         </Card><br/>
                     </Row>
@@ -105,10 +105,10 @@ export default function Projects() {
                     <Row className="justify-content-center">
                         <Card style={{ width: '20rem' }} className='cad'>
                         <div className='setup'>
-                            <Card.Img variant="top" src="images/Projects/gigostore.png" />
+                            <Card.Img variant="top" src="images/Projects/calculator.jpg" />
                         </div>                        
                         <Card.Body>
-                            <Card.Title>Digital-Clock</Card.Title>
+                            <Card.Title>Calculator App</Card.Title>
                             <Card.Text>
                                 <b className='text-danger'>Frontend.</b> Designed with ReactJS, HTML, CSS, Bootstrap, and was deployed on vercel. This Site shows a digital clock.                                                       
                             </Card.Text>
