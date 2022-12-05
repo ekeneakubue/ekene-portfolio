@@ -19,19 +19,17 @@ export default function Contact() {
             )
         .then((result) => {
             console.log(result.text);
-            console.log("message sent")
-            // const alert = document.getElementById('Messange sent Successfully')
+            console.log("message sent")            
+            document.getElementById("alert").innerHTML = ('Messange sent Successfully')
             }, 
             (error) => {
                 console.log(error.text);
-                // const alert = document.getElementById('Messange not sent, Please try again')
+                document.getElementById("alert").innerHTML = ('Error, Ensure no field is vacant')
         });
     };
-
-    
     
   return (
-    <div>
+    <div className="container-fluid">
         <Container className='justify-content-center'>
             <Row>
                 <Col>
@@ -71,24 +69,25 @@ export default function Contact() {
                     <div className="row mt-4">                        
                         <div className="col-lg-12 form-item">
                             <div className="form-group">
-                                <input name="user_name" id="name" type="text" className="form-int form_setup" placeholder="Your Name*"/>
+                                <input name="user_name" id="name" type="text" className="form-int form_setup" placeholder="Your Name*" required/>
                             </div>
                         </div>
                         <div className="col-lg-12 form-item">
                             <div className="form-group">
-                                <input name="user_email" id="email" type="email" className="form-int form_setup" placeholder="Your Email*"/>
+                                <input name="user_email" id="email" type="email" className="form-int form_setup" placeholder="Your Email*" required/>
                             </div>
                         </div>                        
                         <div className="col-12 form-item">
                             <div class="form-group">
-                                <textarea name="message" id="comments" rows="4" className="form-int form_setup" placeholder="Your message..."/>
+                                <textarea name="message" id="comments" rows="4" className="form-int form_setup" placeholder="Your message..." required/>
                             </div>
                         </div>                      
 
                         <div className="col-12 form-item">
                             <Button className='form-int-button form_setup' type="submit" id="send" onClick="Alert()">            
                                 <h6><i className="bi bi-send-fill text-danger"></i> Send Message</h6>
-                            </Button>                                                    
+                            </Button> 
+                            <div id='alert' className='message'></div>                                                   
                         </div>  
                                  
                     </div>

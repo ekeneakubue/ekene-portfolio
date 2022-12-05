@@ -3,7 +3,7 @@ import './Home.css'
 import {Container, Row, Col} from 'react-bootstrap'
 import TypeWriter from "./TypeWriter";
 import About from '../about/About'
-import Projects from '../projects/Projects';
+import Projects from '../../projects/Projects';
 import Contact from '../contact/Contact';
 
 export default function Home() {

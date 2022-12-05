@@ -27,11 +27,11 @@ export default function About() {
                     <p>I specialize in efficient MERN stack apps that works in all platforms and browsers. I care deeply about building interfaces that are useable and pleasant. I am an accomplished coder and programmer, and I enjoy using my skills to contribute to the exciting administrative technology and for educating other team members. Being a developer with positive 
                         attitude and tireless energy I encourage others to work hard and succeed. In my free time, I love watching football and listening to music.</p>
                     <div className='text-center'>
-                        <Button className='setup'>
-                            <a href='EkeneCV.pdf' download>
+                        <a href='ekene.pdf' download>
+                            <Button className='setup'>                            
                                 <i class="bi bi-download text-danger"></i> Download My CV
-                            </a>
-                        </Button>  
+                            </Button> 
+                        </a> 
                     </div>                      
                 </Col>
             </Row><br/><br/>
