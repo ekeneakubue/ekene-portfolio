@@ -26,6 +26,7 @@ export default function Contact() {
                 console.log(error.text);
                 document.getElementById("alert").innerHTML = ('Error, Ensure no field is vacant')
         });
+        e.target.reset();
     };
     
   return (
