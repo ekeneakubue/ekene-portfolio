@@ -1,0 +1,86 @@
+.setup{
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.setin{
+    border-radius: 30px;
+    text-align: center;
+    margin: 2px;
+    margin: 10px;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.intro{
+    padding-top: 5rem;
+}
+
+.myImage{
+    width: 95%;
+    width: 75;
+    height: 95%;
+    margin: 15px;
+    border-radius: 100%;
+}
+.img-setup{
+    width: 100%;
+    height: 95%;
+    text-align: center;    
+    margin: 30px;
+    margin-top: 3rem;
+    border-radius: 100%;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.60), 5px 5px 1rem rgba(94,104,121,0.3);
+}
+.img-setup:hover{
+    width: 100%;
+    height: 95%;
+    text-align: center;    
+    margin: 30px;
+    margin-top: 3rem;
+    border-radius: 100%;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.60), inset 5px 5px 1rem rgba(94,104,121,0.3);
+}
+
+.glow{
+    width: 10rem;
+    height: 10rem;
+    float: inherit;
+    z-index: 12;
+}
+
+.heading{
+    font-size: 4rem;
+}
+
+.main-name{
+    font-size: 3rem;
+}
+
+.fullstack{
+    color: rgb(150, 147, 147);
+    padding-bottom: 2rem;
+}
+
+.block{
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 1rem;
+}
+
+.hire{
+    min-width: 10rem;
+    padding: 0.5rem;
+}
+
+.top-btn-position{
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+}
+
+.top-btn-style{
+    height: 40px;
+    width: 40px;
+}

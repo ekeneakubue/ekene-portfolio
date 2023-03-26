@@ -1,0 +1,25 @@
+.setup{
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+    }
+
+.setup:hover{
+    color: inherit;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.navbar-nav:hover{
+    text-decoration: none;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: greenyellow;
+}
