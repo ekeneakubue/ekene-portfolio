@@ -15,31 +15,33 @@
 
 .intro{
     padding-top: 5rem;
+    margin: 0px 20px;
+
 }
 
 .myImage{
-    width: 95%;
-    width: 75;
-    height: 95%;
-    margin: 15px;
-    border-radius: 100%;
+    width: 90%;    
+    height: 100%;
+    margin: 14px;
+    border-radius: 50%;
+
 }
 .img-setup{
-    width: 100%;
-    height: 95%;
+    width: 80%;
+    height: 70%;
     text-align: center;    
     margin: 30px;
-    margin-top: 3rem;
-    border-radius: 100%;
+    margin-top: 5rem;
+    border-radius: 50%;
     box-shadow: -5px -5px 9px rgba(255,255,255,0.60), 5px 5px 1rem rgba(94,104,121,0.3);
 }
 .img-setup:hover{
-    width: 100%;
-    height: 95%;
+    width: 80%;
+    height: 70%;
     text-align: center;    
     margin: 30px;
-    margin-top: 3rem;
-    border-radius: 100%;
+    margin-top: 5rem;
+    border-radius: 50%;
     box-shadow: -5px -5px 9px rgba(255,255,255,0.60), inset 5px 5px 1rem rgba(94,104,121,0.3);
 }
 
@@ -72,6 +74,7 @@
 .hire{
     min-width: 10rem;
     padding: 0.5rem;
+    margin-top: 2rem 2rem;
 }
 
 .top-btn-position{

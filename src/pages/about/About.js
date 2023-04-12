@@ -31,49 +31,39 @@ export default function About() {
 
             <div className='info'>
                 <h6 className='text-danger'>Skills/Tools</h6>
-                <h3>MY SKILLS</h3>
             </div>            
-            <Row className='row justify-content-center setupp'>                
+            <Row className='row justify-content-center about-body'>                
                 <Col md={6} className="text-center about-intro">
-                    <div className='about-info'>Skills</div>                                      
-                    <div className='set2'>
+                    <div className='about-info'>My Skills</div>                                      
+                    <div className=''>
                         <div className='skill-set'>                        
                             <ul>
-                                <li className='bars'>
+                                <li className='bars text-center'>
                                     <span><i className="bi bi-arrow-right-short text-danger"></i> HTML/CSS</span>
-                                    <span className='text-success'>Profficent</span>
                                 </li><hr/>
                                 <li className='bars'>
                                     <span><i className="bi bi-arrow-right-short text-danger"></i> JavaScript</span>
-                                    <span className='text-info'>Intermediate</span>
                                 </li><hr/>
                                 <li className='bars'>
                                     <span><i className="bi bi-arrow-right-short text-danger"></i> ReactJs/Redux</span>
-                                    <span className='text-success'>Profficent</span>
                                 </li><hr/>
                                 <li className='bars'>
                                     <span><i className="bi bi-arrow-right-short text-danger"></i> NodeJs</span>
-                                    <span className='text-success'>Profficent</span>
                                 </li><hr/>
                                 <li className='bars'>
                                     <span><i className="bi bi-arrow-right-short text-danger"></i> ExpressJs</span>
-                                    <span className='text-success'>Profficent</span>
                                 </li><hr/>
                                 <li className='bars'>
                                     <span><i className="bi bi-arrow-right-short text-danger"></i> MongoDB</span>
-                                    <span className='text-success'>Profficent</span>
                                 </li><hr/>
                                 <li className='bars'>
                                     <span><i className="bi bi-arrow-right-short text-danger"></i> NextJs</span>
-                                    <span className='text-secondary'>beginner</span>
                                 </li><hr/>   
                                 <li className='bars'>
                                     <span><i className="bi bi-arrow-right-short text-danger"></i> Firebase</span>
-                                    <span className='text-info'>Intermediate</span>
                                 </li><hr/>          
                                 <li className='bars'>
                                     <span><i className="bi bi-arrow-right-short text-danger"></i> EmailJs</span>
-                                    <span className='text-success'>Profficent</span>
                                 </li>                                 
                             </ul>
                         </div>
@@ -86,31 +76,24 @@ export default function About() {
                         <ul>
                             <li className='bars'>
                                 <span><i className="bi bi-arrow-right-short text-danger"></i> Ubuntu Linux</span>
-                                <span className='text-success'>Profficent</span>
                             </li><hr/>
                             <li className='bars'>
                                 <span><i className="bi bi-arrow-right-short text-danger"></i> VSCode</span>
-                                <span className='text-success'>Profficient</span>
                             </li><hr/>
                             <li className='bars'>
                                 <span><i className="bi bi-arrow-right-short text-danger"></i> Git/GitHub</span>
-                                <span className='text-success'>Profficent</span>
                             </li><hr/>
                             <li className='bars'>
                                 <span><i className="bi bi-arrow-right-short text-danger"></i> Chrome Dev Tools</span>
-                                <span className='text-success'>Profficent</span>
                             </li><hr/>
                             <li className='bars'>
                                 <span><i className="bi bi-arrow-right-short text-danger"></i> NPM</span>
-                                <span className='text-success'>Profficent</span>
                             </li><hr/>
                             <li className='bars'>
                                 <span><i className="bi bi-arrow-right-short text-danger"></i> Postman</span>
-                                <span className='text-success'>Profficent</span>
                             </li><hr/>
                             <li className='bars'>
                                 <span><i className="bi bi-arrow-right-short text-danger"></i> React Router Dom</span>
-                                <span className='text-success'>Profficent</span>
                             </li>                                                            
                         </ul>
                     </div>                                         

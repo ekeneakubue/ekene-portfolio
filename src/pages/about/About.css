@@ -70,12 +70,11 @@ body{
 .bars{
     height: 1.5rem;
     margin-bottom: 0.5rem;
-    font-size: 1rem;
-    font-weight: 750;
+    font-size: 1.5rem;
+    /* font-weight: 750; */
     color: rgb(105, 103, 103);
-    text-align: left;
+    text-align: center;
     display: flex;
-    justify-content: space-between;
 }
 
 .skill{
@@ -103,6 +102,14 @@ table{
     margin: 10px;
     box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
     }
+.about-body{
+    border-radius: 30px;
+    text-align: center;
+    background: #dde1e7; 
+    color: black;
+    margin: 10px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
 
 .setupp:hover{
     border-radius: 30px;
@@ -117,3 +124,8 @@ table{
     padding-bottom: 3rem; 
     padding-top: 3rem;
 }
+.about-info{
+    padding: 0.1rem;
+    border-radius: 15px;
+    margin: 0px 3rem;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;}

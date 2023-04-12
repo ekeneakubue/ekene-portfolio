@@ -19,61 +19,7 @@ export default function Projects() {
             </Row> 
             
             <div className='row'>                
-                <div className='col'><br/>
-                    <Row className="justify-content-center">
-                        <Card style={{ width: '20rem' }} className='cad'>
-                            <div className='setup'>
-                                <Card.Img variant="top" src="images/Projects/ekene-portfolio.png" />
-                            </div>                        
-                            <Card.Body>
-                                <Card.Title>My-Portfolio-Website</Card.Title>
-                                <Card.Text>
-                                    <b className='text-danger'>Frontend.</b> Designed with ReactJS, HTML, CSS, ReactBootstrap, and was deployed on vercel. This Site represent everything about me. 
-                                </Card.Text>
-                                <Row>
-                                    <div className='col-6 '>
-                                        <a href="https://ekene-portfolio.vercel.app/" target="_blank">
-                                            <Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right"></i> View Site</Button>
-                                        </a>
-                                    </div>
-                                    <div className='col-6 '>
-                                        <a href="https://github.com/ekeneakubue/ekene-portfolio" target="_blank">
-                                            <Button className="setup3" variant=" btn-block"><i class="bi bi-github"></i> GitHub</Button>
-                                        </a>
-                                    </div>                                
-                                </Row>                            
-                            </Card.Body>
-                        </Card><br/>
-                    </Row>
-                </div>
-                <div className='col'><br/>
-                    <Row className="justify-content-center">
-                        <Card style={{ width: '20rem' }} className='cad'>
-                            <div className='setup'>
-                                <Card.Img variant="top" src="images/Projects/gigostore.png" />
-                            </div>                        
-                            <Card.Body>
-                                <Card.Title>Gigo-Store-App</Card.Title>
-                                <Card.Text>
-                                <b className='text-danger'>Frontend.</b> Designed with HTML, CSS, ReactJS and it was deployed on vercel. <br/><br/>
-                                </Card.Text>
-                                <Row>
-                                    <div className='col-6 '>
-                                        <a href="https://gigostore.vercel.app/" target="_blank">
-                                            <Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right"></i> View Site</Button>
-                                        </a>
-                                    </div>
-                                    <div className='col-6 '>
-                                        <a href="https://github.com/ekeneakubue/gigostore" target="_blank">
-                                            <Button className="setup3" variant=" btn-block"><i class="bi bi-github"></i> GitHub</Button>
-                                        </a>
-                                    </div>                                
-                                </Row>                                
-                            </Card.Body>
-                        </Card><br/>
-                    </Row>
-                </div>
-                <div className='col'><br/>
+            <div className='col'><br/>
                     <Row className="justify-content-center">
                         <Card style={{ width: '20rem' }} className='cad'>
                             <div className='setup'>
@@ -100,16 +46,70 @@ export default function Projects() {
                         </Card><br/>
                     </Row>
                 </div>
+                <div className='col'><br/>
+                    <Row className="justify-content-center">
+                        <Card style={{ width: '20rem' }} className='cad'>
+                            <div className='setup'>
+                                <Card.Img variant="top" src="images/Projects/ekene.png" />
+                            </div>                        
+                            <Card.Body>
+                                <Card.Title>My-Portfolio-Website</Card.Title>
+                                <Card.Text>
+                                    <b className='text-danger'>Frontend.</b> Designed with ReactJS, HTML, CSS, ReactBootstrap, and was deployed on vercel. This Site represent everything about me. 
+                                </Card.Text>
+                                <Row>
+                                    <div className='col-6 '>
+                                        <a href="https://ekene-portfolio.vercel.app/" target="_blank">
+                                            <Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right"></i> View Site</Button>
+                                        </a>
+                                    </div>
+                                    <div className='col-6 '>
+                                        <a href="https://github.com/ekeneakubue/ekene-portfolio" target="_blank">
+                                            <Button className="setup3" variant=" btn-block"><i class="bi bi-github"></i> GitHub</Button>
+                                        </a>
+                                    </div>                                
+                                </Row>                            
+                            </Card.Body>
+                        </Card><br/>
+                    </Row>
+                </div>
+                <div className='col'><br/>
+                    <Row className="justify-content-center">
+                        <Card style={{ width: '20rem' }} className='cad'>
+                            <div className='setup'>
+                                <Card.Img variant="top" src="images/Projects/code-city.png" />
+                            </div>                        
+                            <Card.Body>
+                                <Card.Title>Code-City-App</Card.Title>
+                                <Card.Text>
+                                <b className='text-danger'>Frontend.</b> Designed with HTML, CSS, ReactJS and it was deployed on vercel. <br/><br/>
+                                </Card.Text>
+                                <Row>
+                                    <div className='col-6 '>
+                                        <a href="https://gigostore.vercel.app/" target="_blank">
+                                            <Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right"></i> View Site</Button>
+                                        </a>
+                                    </div>
+                                    <div className='col-6 '>
+                                        <a href="https://github.com/ekeneakubue/gigostore" target="_blank">
+                                            <Button className="setup3" variant=" btn-block"><i class="bi bi-github"></i> GitHub</Button>
+                                        </a>
+                                    </div>                                
+                                </Row>                                
+                            </Card.Body>
+                        </Card><br/>
+                    </Row>
+                </div>                
             </div>
             <div className='row'>
                 <div className='col'><br/>
                     <Row className="justify-content-center">
                         <Card style={{ width: '20rem' }} className='cad'>
                             <div className='setup'>
-                                <Card.Img variant="top" src="images/Projects/bcard.png" />
+                                <Card.Img variant="top" src="images/Projects/react-dashboard.png" />
                             </div>                        
                             <Card.Body>
-                                <Card.Title>Digital-Business-Card</Card.Title>
+                                <Card.Title>React DashBoard</Card.Title>
                                 <Card.Text>
                                     <b className='text-danger'>Frontend.</b> Designed with ReactJS, HTML, CSS, Bootstrap, and was deployed on vercel. This Site represent everything about my business.
                                 </Card.Text>
@@ -120,7 +120,7 @@ export default function Projects() {
                                         </a>
                                     </div>
                                     <div className='col-6 '>
-                                        <a href="https://github.com/ekeneakubue/digital-business-card" target="_blank">
+                                        <a href="https://github.com/ekeneakubue/students-record-crud.git" target="_blank">
                                             <Button className="setup3" variant=" btn-block"><i class="bi bi-github"></i> GitHub</Button>
                                         </a>
                                     </div>                                
@@ -133,21 +133,21 @@ export default function Projects() {
                     <Row className="justify-content-center">
                         <Card style={{ width: '20rem' }} className='cad'>
                             <div className='setup'>
-                                <Card.Img variant="top" src="images/Projects/crud-img.png" />
+                                <Card.Img variant="top" src="images/Projects/students-crud.png" />
                             </div>                        
                             <Card.Body>
-                                <Card.Title>Projects</Card.Title>
+                                <Card.Title>React-CRUD-Table</Card.Title>
                                 <Card.Text>
-                                    <b className='text-danger'>Fullstack.</b> Designed with ReactJS, HTML, CSS, Bootstrap, Firebase and was deployed on vercel. This App shows CRUD operations.
+                                    <b className='text-danger'>Fullstack.</b> This is MERN-Stack CRUD operation. Deployed the frontend on vercel and the baackend deployed on Render.
                                 </Card.Text>
                                 <Row>
                                     <div className='col-6 '>
-                                        <a href="https://react-firebase-crud-lake.vercel.app/" target="_blank">
+                                        <a href="https://students-record-crud.vercel.app/" target="_blank">
                                             <Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right"></i> View Site</Button>
                                         </a>
                                     </div>
                                     <div className='col-6 '>
-                                        <a href="https://github.com/ekeneakubue/react-firebase-crud" target="_blank">
+                                        <a href="https://github.com/ekeneakubue/students-record-crud.git" target="_blank">
                                             <Button className="setup3" variant=" btn-block"><i class="bi bi-github"></i> GitHub</Button>
                                         </a>
                                     </div>                                
@@ -160,22 +160,22 @@ export default function Projects() {
                     <Row className="justify-content-center">
                         <Card style={{ width: '20rem' }} className='cad'>
                         <div className='setup'>
-                            <Card.Img variant="top" src="images/Projects/tiana2.jpg" />
+                            <Card.Img variant="top" src="images/Projects/responsive-dashboard.png" />
                         </div>                        
                         <Card.Body>
-                            <Card.Title>Tiana's Banquet</Card.Title>
+                            <Card.Title>Responsive-Dashboard</Card.Title>
                             <Card.Text>
-                                <b className='text-danger'>Frontend.</b> Tiana's Banquet is an event planning Company website Designed
+                                <b className='text-danger'>Frontend.</b> This is a tipical React Responsive Admin Dashboard,    designed
                                  with ReactJS, HTML, CSS, Bootstrap, and was deployed on vercel.                                                       
                             </Card.Text>
                             <Row>
                                 <div className='col-6 '>
-                                    <a href="https://tiana-event.vercel.app/" target="_blank">
+                                    <a href="https://code-city-dashboard.vercel.app/students" target="_blank">
                                         <Button className="setup2" variant=" btn-block"><i class="bi bi-chevron-double-right"></i> View Site</Button>
                                     </a>
                                 </div>
                                 <div className='col-6 '>
-                                    <a href="https://github.com/ekeneakubue/tiana-event" target="_blank">
+                                    <a href="https://github.com/ekeneakubue/code-city-dashboard.git" target="_blank">
                                         <Button className="setup3" variant=" btn-block"><i class="bi bi-github"></i> GitHub</Button>
                                     </a>
                                 </div>                                
