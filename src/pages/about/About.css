@@ -128,7 +128,7 @@ table{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
 }
 .about-btn{
-    width: 12rem;
+    width: 15rem;
     margin: auto auto;
     text-align: center;
     border-radius: 20px;
@@ -138,7 +138,7 @@ table{
 }
 
 .about-btn:hover{
-    width: 12rem;
+    width: 15rem;
     margin: auto auto;
     text-align: center;
     border-radius: 20px;
