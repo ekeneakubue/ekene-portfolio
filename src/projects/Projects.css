@@ -36,23 +36,8 @@ a:hover{
     color: rgb(228, 224, 224);
     text-decoration: none;
 }
-
-.setup2{
-    border-radius: 5px;
-    text-align: center;
-    background: #0c0c0c; 
-    color: #dde1e7;
-    margin: 10px;
-    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
-    }
-
-.setup2:hover{
-    border-radius: 5px;
-    text-align: center;
-    margin: 10px;
-    color: rgb(5, 4, 4);
-    background-color: #dde1e7;
-    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+.pro-icon{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 .setup3{
     border-radius: 5px;
@@ -72,3 +57,27 @@ a:hover{
     background-color: black;
     box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
 }
+
+.pro-foot a{
+    text-align: center;
+    color: black;
+    margin: auto auto;
+}
+
+.pro-icon{
+    width: 4rem;
+    height: 4rem;
+    padding: 0.8rem;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.pro-icon:hover{
+    width: 4rem;
+    height: 4rem;
+    padding: 0.8rem;
+    border-radius: 50%;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+

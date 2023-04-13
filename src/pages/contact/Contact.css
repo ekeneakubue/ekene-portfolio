@@ -75,6 +75,30 @@
     display: none;
 }
 
+.send-btn{
+    width: 10rem;
+    margin: auto auto;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0.5rem;
+    color: rgb(133, 130, 130);
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.send-btn:hover{
+    width: 10rem;
+    margin: auto auto;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0.5rem;
+    color: black;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.btn-form-item{
+    margin-top: 2rem;
+}
+
 .message .text-danger{
     font-size: 20px;
     color: red;

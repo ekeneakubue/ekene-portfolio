@@ -80,10 +80,10 @@ export default function Contact() {
                         </div>
                     </div>                      
 
-                    <div className="col-12 form-item">
-                        <Button className='form-int-button form_setup' type="submit" id="send" onClick="Alert()">            
+                    <div className="col-12 btn-form-item">
+                        <div className='form-int-button send-btn' type="submit" id="send" onClick="Alert()">            
                             <h6><i className="bi bi-send-fill text-danger"></i> Send Message</h6>
-                        </Button> 
+                        </div> 
                         <div id='alert' className='message'></div>                                                   
                     </div>  
                                 
