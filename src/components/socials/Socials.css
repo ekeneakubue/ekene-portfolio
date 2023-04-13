@@ -1,5 +1,9 @@
+.social-wrap{
+    background-color: black;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
 .social{
-    margin-right: 50px;
-    margin-top: 30px;
-    padding-bottom: 20px;
+    font-size: 1.5rem;
+    margin: 2rem;
 }

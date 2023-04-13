@@ -18,8 +18,9 @@ export default function About() {
                 </Col>
 
                 <Col md={6} className="text-center about-intro">
-                    <div className='block'>
-                        <p>I specialize in building efficient MERN-Stack-Apps that works across platforms and browsers. I care deeply about building interfaces that are useable and pleasant. I enjoy using my skills to contribute to existing projects and startups. In my free time, I love watching football and listening to music.</p>
+                    <div className='about-block'>
+                        <p>I building efficient MERN Stack Apps that works across platforms and browsers. I care deeply about building interfaces that are useable and pleasant.</p>
+                        <p>I enjoy using my skills to contribute to existing projects and startups. In my free time, I love watching football and music.</p>
                     </div><br/>
                     
                     <a href='Ekene-CV.pdf' download>

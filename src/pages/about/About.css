@@ -121,10 +121,10 @@ table{
 .title-txt{
     padding-top: 2rem;
 }
-.block{
-    padding: 1rem;
+.about-block{
+    padding: 1.4rem;
     font-size: 1.5rem;
-    text-align: justify;
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
 }
 .about-btn{
