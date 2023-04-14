@@ -10,13 +10,12 @@ export default function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs
-            .sendForm(
-                'service_6d2kfmt', 
-                'template_mepyilk', 
-                form.current, 
-                'CbvCANNmhODLvBPoS'
-            )
+        emailjs.sendForm(
+            'service_6d2kfmt', 
+            'template_mepyilk', 
+            form.current, 
+            'CbvCANNmhODLvBPoS'
+        )
         .then((result) => {
             console.log(result.text);
             console.log("message sent")            
@@ -25,7 +24,8 @@ export default function Contact() {
             (error) => {
                 console.log(error.text);
                 document.getElementById("alert").innerHTML = ('Error, Ensure no field is vacant')
-        });
+            }
+        );
     };
     
   return (
@@ -81,9 +81,9 @@ export default function Contact() {
                     </div>                      
 
                     <div className="col-12 btn-form-item">
-                        <div className='form-int-button send-btn' type="submit" id="send" onClick="Alert()">            
+                        <button className='form-int-button send-btn' type="submit" id="send" onClick="Alert()">            
                             <h6><i className="bi bi-send-fill text-danger"></i> Send Message</h6>
-                        </div> 
+                        </button> 
                         <div id='alert' className='message'></div>                                                   
                     </div>  
                                 
