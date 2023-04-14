@@ -35,7 +35,7 @@ export default function Home() {
           <p className="heading-description blockquote block">  
             I'm passionate about creating clean, beautiful, responsive 
             and user friendly interfaces, with over two years experience in web development. 
-            I'm well knowledged in Bootstrap, ReactJS & NodeJS.<br/>             
+            I'm well knowledged in ReactJS, NodeJS, ExpressJs, & MongoDB.<br/>             
           </p> 
           <button type="button" className="btn btn-dark hire" onClick={() => scrollToSection(contact)}>Hire Me</button>             
         </div> 
