@@ -125,7 +125,7 @@ export default function Projects() {
                                 <b className='text-danger'>Frontend.</b> A Tech Skill-Up website. Designed with HTML, CSS, ReactJS and Bootstrap. It was deployed on vercel. <br/><br/>
                                 </Card.Text>                                
                                 <div className='row pro-foot'>                                
-                                    <a href="https://vercel.com/ekeneakubue/code-city-app" target="_blank">
+                                    <a href="https://code-city-app.vercel.app/" target="_blank">
                                         <h2 className="pro-icon" variant=" btn-block"><i class="bi bi-binoculars-fill"></i></h2>
                                     </a>                          
                                     <a href="https://github.com/ekeneakubue/code-city-app.git" target="_blank">
